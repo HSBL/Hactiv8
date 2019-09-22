@@ -17,11 +17,11 @@ DISPLAY Force
 ## Pseudocode
 STORE Year  
 IF Year modulo 4 equal to 0 AND Year modulo 100 not equal to 0  
-  DISPLAY “Leap Year”  
+>>DISPLAY “Leap Year”  
 ELSE IF Year modulo 4 equal to 0 AND Year modulo 100 equal to 0 AND Year modulo 400 equal to 0  
-  DISPLAY “Leap Year”  
+>>DISPLAY “Leap Year”  
 ELSE  
-  DISPLAY “Common	 Year”  
+>>DISPLAY “Common	 Year”  
 
 
 # 3. Laundry Day
