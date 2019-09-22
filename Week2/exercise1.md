@@ -1,9 +1,9 @@
 # 1. Newton Second Law
-STORE Mass with any value
-STORE Acceleration with any value
-STORE Force with empty value
-CALCULATE Force equal Mass times Acceleration
-DISPLAY Force
+STORE Mass with any value  
+STORE Acceleration with any value  
+STORE Force with empty value  
+CALCULATE Force equal Mass times Acceleration  
+DISPLAY Force  
 
 # 2. Tahun Kabisat
 ## Algoritma   
@@ -15,13 +15,13 @@ DISPLAY Force
   6. I none of the conditions met
   7. Output: Common Year 
 ## Pseudocode
-STORE Year
-IF Year modulo 4 equal to 0 AND Year modulo 100 not equal to 0
-	DISPLAY “Leap Year”
-ELSE IF Year modulo 4 equal to 0 AND Year modulo 100 equal to 0 AND Year modulo 400 equal to 0
-	DISPLAY “Leap Year”
-ELSE 
-	DISPLAY “Common	 Year”
+STORE Year  
+IF Year modulo 4 equal to 0 AND Year modulo 100 not equal to 0  
+	DISPLAY “Leap Year”  
+ELSE IF Year modulo 4 equal to 0 AND Year modulo 100 equal to 0 AND Year modulo 400 equal to 0  
+	DISPLAY “Leap Year”  
+ELSE  
+	DISPLAY “Common	 Year”  
 
 
 # 3. Laundry Day
@@ -34,35 +34,35 @@ ELSE
  6. Tampilkan Counter
 
 ## Pseudocode
-STORE Laundry any value
-STORE Counter = 0
-WHILE Laundry not equal zero
-	PUT Clothes into Washing machine
-	SUBTRACT 1 from Laundry
-	ADD 1 into Counter
-TURN ON Washing machine
-DISPLAY Counter
+STORE Laundry any value  
+STORE Counter = 0  
+WHILE Laundry not equal zero  
+	PUT Clothes into Washing machine  
+	SUBTRACT 1 from Laundry  
+	ADD 1 into Counter  
+TURN ON Washing machine  
+DISPLAY Counter  
 
 
 # 4. Periksa Kuku
 ## Algoritma
-  1. Siapkan Pelajar
-  2. Siapkan Counter
-  3. Siapkan parameter panjang kuku yang ideal
-  4. Cek Panjang kuku pelajar, tambahkan Counter tiap kali mengecek pelajar
-  5. Jika Panjang kuku lebih dari panjang kuku ideal
-  6. Hukum
-  7. Jika Panjang kuku kurang dari atau sama dengan panjang kuku ideal
+  1. Siapkan Pelajar  
+  2. Siapkan Counter  
+  3. Siapkan parameter panjang kuku yang ideal  
+  4. Cek Panjang kuku pelajar, tambahkan Counter tiap kali mengecek pelajar  
+  5. Jika Panjang kuku lebih dari panjang kuku ideal  
+  6. Hukum  
+  7. Jika Panjang kuku kurang dari atau sama dengan panjang kuku ideal  
   8. Puji
   9. Jika Counter sudah mencapai 40, selesai.
 ## Pseudocode
-STORE Student equal to 40
-STORE Counter equal to zero
-STORE FingernailLength
-STORE IdealFingernail = 5
-WHILE Counter less than Student
-	IF FingernailLength > IdealFIngernail
-		PUNISH
-	ELSE
-		BLESS
-	ADD 1 into Counter	
+STORE Student equal to 40  
+STORE Counter equal to zero  
+STORE FingernailLength  
+STORE IdealFingernail = 5  
+WHILE Counter less than Student  
+	IF FingernailLength > IdealFIngernail  
+		PUNISH  
+	ELSE  
+		BLESS  
+	ADD 1 into Counter  
