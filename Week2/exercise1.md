@@ -17,11 +17,11 @@ DISPLAY Force
 ## Pseudocode
 STORE Year  
 IF Year modulo 4 equal to 0 AND Year modulo 100 not equal to 0  
->>DISPLAY “Leap Year”  
+&nbsp;&nbsp;DISPLAY “Leap Year”  
 ELSE IF Year modulo 4 equal to 0 AND Year modulo 100 equal to 0 AND Year modulo 400 equal to 0  
->>DISPLAY “Leap Year”  
+&nbsp;&nbsp;DISPLAY “Leap Year”  
 ELSE  
->>DISPLAY “Common	 Year”  
+&nbsp;&nbsp;DISPLAY “Common	 Year”  
 
 
 # 3. Laundry Day
@@ -37,9 +37,9 @@ ELSE
 STORE Laundry any value  
 STORE Counter = 0  
 WHILE Laundry not equal zero  
-  PUT Clothes into Washing machine  
-  SUBTRACT 1 from Laundry  
-  ADD 1 into Counter  
+&nbsp;&nbsp;PUT Clothes into Washing machine  
+&nbsp;&nbsp;SUBTRACT 1 from Laundry  
+&nbsp;&nbsp;ADD 1 into Counter  
 TURN ON Washing machine  
 DISPLAY Counter  
 
@@ -61,8 +61,8 @@ STORE Counter equal to zero
 STORE FingernailLength  
 STORE IdealFingernail = 5  
 WHILE Counter less than Student  
-	IF FingernailLength > IdealFIngernail  
-		PUNISH  
-	ELSE  
-		BLESS  
-	ADD 1 into Counter  
+&nbsp;&nbsp;IF FingernailLength > IdealFIngernail  
+&nbsp;&nbsp;&nbsp;&nbsp;PUNISH  
+&nbsp;&nbsp;ELSE  
+&nbsp;&nbsp;&nbsp;&nbsp;BLESS  
+&nbsp;&nbsp;ADD 1 into Counter  
