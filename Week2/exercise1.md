@@ -1,7 +1,7 @@
 # 1. Newton Second Law
 
-STORE Mass with any value  
-STORE Acceleration with any value  
+STORE Mass with value of 600  
+STORE Acceleration with value of 2  
 STORE Force with empty value  
 CALCULATE Force equal Mass times Acceleration  
 DISPLAY Force
@@ -33,7 +33,7 @@ ELSE
 ## Algoritma
 
 1.  Siapkan Laundry
-2.  Siapkan Counter awali dengan nilai nol
+2.  Siapkan Counter, awali dengan nilai nol
 3.  Masukkan satu per satu baju ke dalam mesin cuci
 4.  Tambahkan Counter dengan 1 nilai tiap kali memasukkan 1 baju
 5.  Jika Laundry sudah habis, hidupkan mesin cuci
@@ -41,11 +41,10 @@ ELSE
 
 ## Pseudocode
 
-STORE Laundry any value  
+STORE Laundry any value eg 20
 STORE Counter = 0  
-WHILE Laundry not equal zero  
-&nbsp;&nbsp;&nbsp;&nbsp;PUT Clothes into Washing machine  
-&nbsp;&nbsp;&nbsp;&nbsp;SUBTRACT 1 from Laundry  
+WHILE Laundry is not equal to zero  
+&nbsp;&nbsp;&nbsp;&nbsp;PUT 1 Clothes into Washing machine  
 &nbsp;&nbsp;&nbsp;&nbsp;ADD 1 into Counter  
 TURN ON Washing machine  
 DISPLAY Counter
@@ -72,7 +71,7 @@ STORE FingernailLength
 STORE IdealFingernail = 5  
 WHILE Counter less than Student  
 &nbsp;&nbsp;&nbsp;&nbsp;IF FingernailLength > IdealFIngernail  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUNISH  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUNISH!  
 &nbsp;&nbsp;&nbsp;&nbsp;ELSE  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLESS  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BLESS!  
 &nbsp;&nbsp;&nbsp;&nbsp;ADD 1 into Counter
