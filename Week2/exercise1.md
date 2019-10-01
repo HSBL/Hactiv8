@@ -15,7 +15,7 @@ DISPLAY Force
 3. Output: Leap Year
 4. If Year devided by 4 and 100 and 400 has no remainder
 5. Output: Leap Year
-6. I none of the conditions met
+6. If none of the conditions met
 7. Output: Common Year
 
 ## Pseudocode
@@ -41,7 +41,7 @@ ELSE
 
 ## Pseudocode
 
-STORE Laundry any value eg 20
+STORE Laundry value of 20
 STORE Counter = 0  
 WHILE Laundry is not equal to zero  
 &nbsp;&nbsp;&nbsp;&nbsp;PUT 1 Clothes into Washing machine  
