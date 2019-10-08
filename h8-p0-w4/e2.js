@@ -22,7 +22,6 @@ function fpb(angka1, angka2) {
       }
     }
   }
-  // return faktor1;
 }
 
 // TEST CASES
