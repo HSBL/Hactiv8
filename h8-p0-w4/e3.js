@@ -1,5 +1,15 @@
 function cariMedian(arr) {
   // you can only write your code here!
+  // di sort dulu
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      if (arr[i] > arr[j]) {
+        var swap = arr[i];
+        arr[i] = arr[j];
+        arr[j] = swap;
+      }
+    }
+  }
   if (arr.length !== 0 && Array.isArray(arr)) {
     // input check
     if (arr.length % 2 === 0) {
